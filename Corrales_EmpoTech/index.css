@@ -1,0 +1,281 @@
+body {
+  background:url('background01.jpg') ;
+background-repeat: no-repeat;
+background-size: cover;
+}
+*{
+  margin: 0%;
+  padding: 0%;
+}
+nav{
+  background-color: white;
+  position: absolute;
+  top: 5%;
+  left: 8%;
+  height: 65px;
+  width: 80%;
+  opacity: 0.5;
+}
+
+ul{
+      font-family: georgia;
+      list-style-type: none;
+      margin: 20px;
+      position: absolute;
+      top: 5%;
+      left: 10%;
+  }
+  ul li{
+      display: inline-block;
+  }
+  ul li a{
+      margin: 5px;
+      padding: 5px;
+      line-height: 60%;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: bold;
+      color: #444138;
+    }
+    a:hover{
+      background-image: linear-gradient(to right,  #b8aea1,#d4c8c0,#ebe8e5);
+      color: #444138;
+  }
+  ul li.active a{
+    background-image: linear-gradient(to right,  #b8aea1,#d4c8c0,#ebe8e5);
+    color: #444138;
+  }
+  .intro{
+    background-color: #d4c8c0;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+  }
+  .img1{
+    position: absolute;
+    left: 13%;
+    top: 5%;
+  }
+  h2{
+    font-family: 'Dancing Script';
+    src: url('DancingScript-Bold.ttf');
+    font-weight: bold;
+    font-size: 100px;
+    position: absolute;
+    left: 58%;
+    top: 20%;
+    letter-spacing: 10px;
+    color: #444138;
+  }
+  @font-face {
+    font-family: 'Dancing Script';
+    src: url('DancingScript-Bold.ttf');
+}
+h5{
+  font-size: 20px;
+  position: absolute;
+  left: 62%;
+  top: 60%;
+  color: #444138;
+}
+.studio{
+  background-color: #d4c8c0;
+  width: 900px;
+  height: 400px;
+  position: absolute;
+  top: 20%;
+  left: 0%;
+}
+.image{
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+.ht{
+  font-family: georgia;
+  letter-spacing: 10px;
+  font-size: 40px;
+  position: absolute;
+  left: 60%;
+  top: 15%;
+  color: #444138;
+}
+.hp{
+  font-size: 20px;
+  position: absolute;
+  left: 56%;
+  top: 40%;
+  color: #444138;
+}
+.apartment{
+  background-color: #d4c8c0;
+  width: 900px;
+  height: 400px;
+  position: absolute;
+  top: 25%;
+  left: 0%;
+}
+.ht1{
+  font-family: georgia;
+letter-spacing: 10px;
+  font-size: 40px;
+  position: absolute;
+  left: 55%;
+  top: 15%;
+  color: #444138;
+}
+.hp1{
+  font-size: 20px;
+  position: absolute;
+  left: 48%;
+  top: 40%;
+  color: #444138;
+}
+.micro{
+  background-color: #d4c8c0;
+  width: 900px;
+  height: 400px;
+  position: absolute;
+  top: 25%;
+  left: 0%;
+}
+.ht2{
+  font-family: georgia;
+  letter-spacing: 10px;
+  font-size: 40px;
+  position: absolute;
+  left: 60%;
+  top: 15%;
+  color: #444138;
+}
+.hp2{
+  font-size: 20px;
+  position: absolute;
+  left: 48%;
+  top: 40%;
+  color: #444138;
+}
+.loft{
+  background-color: #d4c8c0;
+  width: 900px;
+  height: 400px;
+  position: absolute;
+  top: 25%;
+  left: 0%;
+}
+.ht3{
+  font-family: georgia;
+letter-spacing: 10px;
+  font-size: 40px;
+  position: absolute;
+  left: 60%;
+  top: 15%;
+  color: #444138;
+}
+.hp3{
+  font-size: 20px;
+  position: absolute;
+  left: 48%;
+  top: 40%;
+  color: #444138;
+}
+.duplex{
+  background-color: #d4c8c0;
+  width: 900px;
+  height: 400px;
+  position: absolute;
+  top: 25%;
+  left: 0%;
+}
+.ht4{
+  font-family: georgia;
+  letter-spacing: 10px;
+  font-size: 40px;
+  position: absolute;
+  left: 60%;
+  top: 15%;
+  color: #444138;
+}
+.hp4{
+  font-size: 20px;
+  position: absolute;
+  left: 48%;
+  top: 40%;
+  color: #444138;
+}
+.triplex{
+  background-color: #d4c8c0;
+  width: 900px;
+  height: 400px;
+  position: absolute;
+  top: 25%;
+  left: 0%;
+}
+.ht5{
+  font-family: georgia;
+letter-spacing: 10px;
+  font-size: 40px;
+  position: absolute;
+  left: 60%;
+  top: 15%;
+  color: #444138;
+}
+.hp5{
+  font-size: 20px;
+  position: absolute;
+  left: 48%;
+  top: 40%;
+  color: #444138;
+}
+.rises{
+  background-color: #d4c8c0;
+  width: 900px;
+  height: 400px;
+  position: absolute;
+  top: 25%;
+  left: 0%;
+}
+.ht6{
+  font-family: georgia;
+  letter-spacing: 10px;
+  font-size: 40px;
+  position: absolute;
+  left: 60%;
+  top: 15%;
+  color: #444138;
+}
+.hp6{
+  font-size: 20px;
+  position: absolute;
+  left: 48%;
+  top: 40%;
+  color: #444138;
+}
+.condo{
+  background-color: #d4c8c0;
+  width: 900px;
+  height: 400px;
+  position: absolute;
+  top: 25%;
+  left: 0%;
+}
+.ht7{
+  font-family: georgia;
+  letter-spacing: 10px;
+  font-size: 40px;
+  position: absolute;
+  left: 60%;
+  top: 15%;
+  color: #444138;
+}
+.hp7{
+  font-size: 20px;
+  position: absolute;
+  left: 48%;
+  top: 40%;
+  color: #444138;
+}
